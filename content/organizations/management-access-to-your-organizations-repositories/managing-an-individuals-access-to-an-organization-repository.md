@@ -4,27 +4,7 @@ intro: You can manage a person's access to a repository owned by your organizati
 redirect_from:
   - /articles/managing-an-individual-s-access-to-an-organization-repository-early-access-program/
   - /articles/managing-an-individual-s-access-to-an-organization-repository
-  - /articles/managing-an-individuals-access-to-an-organization-repository
-  - /github/setting-up-and-managing-organizations-and-teams/managing-an-individuals-access-to-an-organization-repository
-versions:
-  fpt: '*'
-  ghes: '*'
-  ghae: '*'
-topics:
-  - Organizations
-  - Teams
-shortTitle: Manage individual access
----
-
-People with admin permissions can manage the access of organization members and outside collaborators to an organization repository.
-
-## Removing access to repositories
-
-When you remove a collaborator from a repository in your organization, the collaborator loses read and write access to the repository. If the repository is private and the collaborator has forked the repository, then their fork is also deleted, but the collaborator will still retain any local clones of your repository.
-
-{% data reusables.repositories.deleted_forks_from_private_repositories_warning %}
-
-## Managing an individual's access to an organization repository
+individual's access to an organization repository
 
 {% data reusables.profile.access_org %}
 {% data reusables.user_settings.access_org %}
